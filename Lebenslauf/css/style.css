@@ -1,0 +1,167 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    margin: 3% 17%;
+    font-family: monospace;
+    font-size: 15px;
+    color: #002F2F;
+    line-height : 22px;
+}
+
+.inner{
+    border: solid black 1px;
+    padding: 30px;
+}
+
+/* *********   S E C T I O N 1 ************ */
+
+.menu_and_cover{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+/*resoinsive button */
+.menu_and_cover .menu{
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    margin: 9px 0px 0px 11px;
+}
+
+.menu_and_cover .menu span{
+    width: 100%;
+    height: 9px;
+    background-color: black;
+    display: block;
+    margin-top: 4px;
+}
+
+/*foto de couverture */
+.menu_and_cover .cover_pic{
+    width: 100%;
+    height: 350px;
+    color: white;
+}
+
+.menu_and_cover .cover_pic h3{
+    margin-top: 150px;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 100;
+}
+.menu_and_cover .cover_pic p{
+    text-align: center;
+}
+
+#cover_pic{
+    background-image: url("../fotos/cover.jpg");
+}
+
+.menu_and_cover .cover_pic img{
+    width: 100%;
+    height: 100%;
+}
+
+/* ************ S E C T I ON II ************* */
+
+.about_me {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.about_me .about_me_left {
+    border: solid black 1px;
+    padding: 10px;
+    width: 65%;
+}
+.about_me .about_me_left .whrite_to{
+    margin-bottom: 40px;
+}
+
+.about_me .about_me_right {
+    border: solid black 1px;
+    width: 28%;
+    height: 50%;
+    padding: 10px;
+}
+
+
+.about_me .about_me_right .profil_image img{
+    width: 100%;
+    height: 100%;
+}
+
+.about_me .about_me_right .description{
+    margin-top: 30px;
+    text-align: center;
+}
+
+/*********** SECTION 3 *********/
+
+.skills_competance{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.skills_competance .skills{
+    padding: 2%;
+    border: solid black 1px;
+    width: 27%;
+    height: 400px;
+}
+
+.skills_competance .skills h4{
+    float: right;
+}
+
+.skills_competance .skills h5{
+    float: left;
+}
+
+.skills_competance .Erfahrung{
+    padding: 15px;
+    border: solid black 1px;
+    width: 62%;
+}
+
+
+.skills_competance .progrssiv_bar_contain {
+    border: azure;
+    border-radius: 10px;
+    width: 100%;
+    height: 3px;
+    background-color: navajowhite;
+    clear: both;
+    margin-bottom: 27px;
+    margin-top: 5px;
+}
+
+.skills_competance .progrssiv_bar_contain .bar{
+    width: 80%;
+    height: 3px;
+    background-color: black;
+}
+
+.skills_competance .progrssiv_bar_contain .bar-js{
+    width: 65%;
+    height: 3px;
+    background-color: black;
+}
+
+.skills_competance .progrssiv_bar_contain .bar-php{
+    width: 60%;
+    height: 3px;
+    background-color: black;
+}
+
+.skills_competance .progrssiv_bar_contain .bar-java{
+    width: 50%;
+    height: 3px;
+    background-color: black;
+}
