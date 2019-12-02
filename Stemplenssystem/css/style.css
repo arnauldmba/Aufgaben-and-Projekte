@@ -1,0 +1,140 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+}
+
+/*Style Formulaire*/
+.formular-connexion{
+}
+.formular-connexion form{
+    margin: 200px auto;
+    width: 400px;
+    height: 250px;
+    text-align: center;
+}
+.formular-connexion form h1{
+    margin-top: 40px;
+}
+.formular-connexion form input{
+    margin-top: 15px;
+}
+
+.formular-connexion form input{
+}
+
+/**** BEHÄLTER ***/
+
+.container{
+    width: 60%;
+    height: 750px;
+    border: 1px solid black;
+    margin: 5% auto;
+    position: relative;
+}
+
+header{
+    background-color: #12123d;
+    display: flex;
+    flex-wrap: wrap;
+    color: white;
+    height: 80px;
+}
+
+header .responsiv-button span{
+    display: block;
+    width: 50px;
+    height: 5px;
+    background-color: white;
+    margin-top: 6px;
+}
+
+header .responsiv-button {
+    margin: 20px 20px 20px 20px;
+}
+
+header .title-and-nav{
+    margin-top: 8px;
+}
+
+header .title-and-nav nav ul li{
+    float: left;
+    margin-right: 10px;
+    list-style-type: none;
+}
+
+header .title-and-nav nav ul li a{
+    text-decoration: none;
+    color: white;
+}
+
+/***** MAIN SEITE *****  */
+
+.stamp-and-terminal{
+    margin-top: 30px;
+}
+.stamp-and-terminal .stamp {
+    margin: 10px auto;
+    width: 90%;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    background-color: black;
+
+}
+
+.stamp-and-terminal .terminal{
+    margin: 30px auto;
+    border: 1px solid black;
+    width: 90%;
+}
+
+.stamp button{
+    margin: 15px;
+    width: 100px;
+    height: 100px;
+}
+
+/* ***** RESPONVIE LINKE SEITE */
+
+.resp-menu-left{
+    position: absolute;
+    top: 0px;
+    border: 1px solid red;
+    width: 30%;
+    height: 100%;
+    z-index: 10000;
+    background-color: gray;
+    display: none;
+}
+
+/* *****RESPONSIVE RECHTE SEITE */
+
+.resp-menu-right{
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    border: 1px solid red;
+    width: 30%;
+    height: 100%;
+    z-index: 10000;
+    background-color: gray;
+    display: none;
+}
+
+/* **** FOOTER */
+footer{
+    background-color: #12123d;
+    width: 100%;
+    height: 60px;
+    position: absolute;
+    bottom: 0px;
+}
+
+footer p{
+    text-align: center;
+    margin-top: 20px;
+    color: white;
+}
