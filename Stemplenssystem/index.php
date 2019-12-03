@@ -1,4 +1,6 @@
 <?php
+
+session_start();
 //Useremail und Passwort
 $userName = 'arnauld@gmail.com';
 $userPassword = 0000;
