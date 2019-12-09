@@ -102,12 +102,38 @@ header .title-and-nav nav ul li a{
 .resp-menu-left{
     position: absolute;
     top: 0px;
-    border: 1px solid red;
     width: 30%;
     height: 100%;
     z-index: 10000;
-    background-color: gray;
+    background-color: #2a2e3d;
     display: none;
+}
+
+.resp-menu-left a{
+    color: white;
+    text-decoration: none;
+}
+
+.resp-menu-left .top{
+    margin: 25px;
+    color: white;
+}
+
+.resp-menu-left .top h2{
+    margin-bottom: 30px;
+}
+.resp-menu-left .top span{
+    margin-right: 5px;
+}
+
+.resp-menu-left .bottom{
+    margin: 25px;
+    position: absolute;
+    bottom: 0px;
+}
+
+.resp-menu-left p{
+    margin-top: 10px;
 }
 
 /* *****RESPONSIVE RECHTE SEITE */
@@ -116,12 +142,55 @@ header .title-and-nav nav ul li a{
     position: absolute;
     top: 0px;
     right: 0px;
-    border: 1px solid red;
-    width: 30%;
+    width: 28%;
     height: 100%;
     z-index: 10000;
-    background-color: gray;
+    background-color: #2a2e3d;
+    color: white;
+    padding-left: 25px;
     display: none;
+}
+
+.resp-menu-right h2{
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.resp-menu-right p{
+    margin-bottom: 6px;
+}
+
+/* ******* Profil Seite-style ******* */
+
+.mitarbeiterDaten{
+    margin: 30px 0px 0px 30px;
+    padding-bottom: 20px;
+    padding-top: 13px;
+    padding-left: 13px;
+    width: 60%;
+    background-color: #e7f5e7;
+}
+
+.mitarbeiterDaten .nameContainer{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.mitarbeiterDaten .nameContainer #Nachname{
+    margin-left: 70px;
+}
+
+.mitarbeiterUrlaub{
+    background-color: #e7f5e7;
+    padding-top: 10px;
+    padding-left: 13px;
+    margin: 40px 0px 0px 30px;
+    width: 60%;
+    height: 160px;
+}
+
+.mitarbeiterUrlaub p{
+    margin: 3px;
 }
 
 /* **** FOOTER */

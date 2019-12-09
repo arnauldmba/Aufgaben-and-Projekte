@@ -14,9 +14,14 @@
 
         if($admin && $password){
 
-            if($adminName == $admin && $password == $adminPassword){
+            if($admin == $adminName && $password == $adminPassword){
 
-                $_SESSION['adminName'] = $adminName;
+                /*
+                 * when connecting with adminName and passwordAdmin, we are redirected to: admin.php
+                 * in all other cases, we are redirected to: index.php
+                 */
+
+                $_SESSION['adminName'] = $admin;
                 header('Location: admin.php');
 
             }else{

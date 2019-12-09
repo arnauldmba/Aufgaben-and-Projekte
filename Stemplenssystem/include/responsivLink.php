@@ -1,12 +1,12 @@
 <!--  responsives Menü Link-->
 <section class="resp-menu-left">
     <div class="top">
-        <h3><span>icone</span> Menu</h3>
-        <p><span>icone</span>Virtuelles Terminal</p>
-        <p><span>icone</span>Anwesenheit</p>
+        <h2><span> < </span> Menu</h2>
+        <p><a href="home.php"><span>icone</span> Virtuelles Terminal</a></p>
+        <p><a href="#"><span>icone</span> Anwesenheit</a> </p>
     </div>
     <div class="bottom">
-        <p><span>icone</span><a href="#">Mein Profil</a></p>
-        <p><span>icone</span><a href="#">Abmelden</a></p>
+        <p><a href="profil.php">Mein Profil</a></p>
+        <p><a href="#">Abmelden</a></p>
     </div>
 </section>

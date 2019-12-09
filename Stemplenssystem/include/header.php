@@ -22,7 +22,7 @@
             <h1>Zeiteinträge</h1>
             <nav class="nav-div">
                 <ul>
-                    <li><a href="#"><span>icone</span></a></li>
+                    <li><a href="profil.php"><span>Profil</span></a></li>
                     <li><a href="#"><span>icone</span></a></li>
                     <li><a href="#"><span>icone</span></a></li>
                     <li><a href="#"><span>icone</span></a></li>
