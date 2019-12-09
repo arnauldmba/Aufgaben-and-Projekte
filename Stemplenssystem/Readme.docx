@@ -1,0 +1,23 @@
+Readme
+
+Projektname: Stempeln
+
+Copyright : Arnauld Mba
+
+Es handelt es sich um eine Webapplikation, die die Arbeitszeit der Mietarbeitern einer Firma verwalten kann.
+
+Die Webapplikation besteht aus zwei Teilen: Seite der Administrator auf einer Seite und die Benutzerseite auf der anderen. Um Zugang an die Seiten (Administrator-und-Benutzerseite) zu haben, braucht man unbedingt eine Email und ein Passwort. 
+
+Auf der Administrator-Seite kann man einen Mietarbeiter hinzufügen, Daten ändern, oder einen Mitarbeiter löschen.
+Die Benutzerseite ermöglicht den Mietarbeiter sich einzuloggen (mit Hilf seiner Email und seinem Passwort). Danach kann er stempeln: ,,KOMMEN’’, wenn er kommt und ,,GEHEN’’, wenn er geht. Am Ende des Monats wird alles berechnen, damit man genau weißt, wie viel Stunden er gearbeitet hat.
+Es git auch die Möglichkeiten Urlaub zu nehmen: dafür muss er das zuvor beantragen. 
+
+Zur Herstellung dieser Webapplikation werde ich die folgenden programmieren Sprachen benutzen: JAVASCRIPT für die Interaktion mit dem Benutzer. PHP für die Validierung des Formulars. HTML und CSS, um die komplette Seite zu schreiben und die Formatierung. 
+
+
+
+Das ist nur eine kleine Einleitung, damit man eine Idee hat, was ich machen möchte. Es kann auch vorkommen, dass ich im laufe der Arbeit noch ein paar Funktionalitäten hinzufüge oder verändere. Aber die Grundidee bleibt trotzdem. 
+
+Es kann auch vorkommen, dass ich manchen Sache nicht richtig mache. Das ist eigentlich nur eine Art und Weise zu üben, was wir an der Uni lernen.  
+
+ 
